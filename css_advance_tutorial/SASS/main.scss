@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+.main_header{
+    width: 100vw;
+    height: 100vh;
+    @include flexprob;
+    @include commoncode(2rem);
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // flex-direction: column;
+    // background: #242424;
+    background: $bg-color;
+
+    h1{
+        color: #fff;
+        font-size: 5rem + 5rem;
+        transition: 0.2s;
+        letter-spacing: 0.3rem;
+
+        // scss Nesting
+        &:hover{
+            color: brown;
+        }
+
+        &::after{
+            content: ' hey';
+        }
+    }
+
+    // h1:hover{
+    //     color: brown;
+    // }
+
+    p{
+        color: #fff;
+        letter-spacing: 0.3rem;
+    }
+}
+
+// 1: Operators
+// 2: Variables
+// 3: Nesting
+// 4: Mixin
+// 5: Paramters
+// 6: Partials

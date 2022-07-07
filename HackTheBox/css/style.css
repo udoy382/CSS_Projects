@@ -1,0 +1,302 @@
+/* Navbar */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #141d2b;
+    color: #a4b1cd;
+}
+
+.header{
+    background-color: #1a2332;
+    height: 12vh;
+    position: sticky;
+    top: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 10rem 0 10rem;
+}
+
+.right-nav ul li{
+    list-style-type: none;
+    padding: 15px;
+}
+
+
+.right-nav ul{
+    display: flex;
+}
+
+
+.right-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.left-nav h3 a{
+    text-decoration: none;
+    color: #756d6d;
+}
+
+.navbar .left-nav span{
+    color: rgb(233, 222, 222);
+    margin-right: 5px;
+}
+
+
+.right-nav ul li a:hover{
+    color: rgb(139, 136, 136);
+}
+
+
+#last-ul-li-a{
+    background-color: #9fef00;
+    color: #000;
+    padding: 7.5px 15px;
+    border-radius: 5px;
+}
+
+#last-ul-li-a:hover{
+    background-color: #95d11c;   
+}
+
+
+/* fst-section */
+
+.fst-section{
+    height: 87.5vh;
+}
+.fst-section .fst-con1{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 25px;
+}
+
+.fst-con1 span{
+    color: rgb(233, 222, 222);
+}
+
+.fst-con1 small{
+    font-size: 15px;
+}
+
+.fst-con2 .con2-item1 img{
+    width: 8rem;
+}
+
+.fst-con2{
+    display: flex;
+    align-items: center;
+    padding-left: 15rem;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.con2-item1{
+    padding: 0 4rem;
+}
+
+.fst-con3{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    padding-left: 35rem;
+}
+
+.fst-con3 .con3-btn1 a{
+    text-decoration: none;
+    color: #000;
+    background-color: #9fef00;
+    padding: .8rem 5rem;
+    border-radius: 5px;
+}
+
+.fst-con3 .con3-btn1 a:hover{
+    background-color: #95d11c;
+}
+
+.fst-con3 .con3-btn2 a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0086ff;
+    padding: .8rem 3rem;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.fst-con3 .con3-btn2 a:hover{
+    background-color: #1278d1;
+}
+
+
+/* snd-section */
+
+.snd-section{
+    height: 90vh;
+}
+
+.snd-con1{
+    text-align: center;
+    padding-top: 2rem;
+    border-bottom: 1px solid #1f2938;
+}
+
+.snd-con1 h4{
+    padding-bottom: 1rem;
+}
+
+
+.snd-con2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7rem;
+}
+
+.snd-con2-left{
+    font-size: 15px;
+}
+
+.snd-con2-right img{
+    width: 25rem;
+}
+
+.snd-con2 .snd-con2-left span{
+    color: #9fef00;
+}
+
+.snd-con2-left h1{
+    padding-bottom: 5px;
+}
+
+.snd-con2-left #snd-p{
+    padding: 1rem 0;
+}
+
+
+/* trd-section */
+
+.trd-section .trd-con1{
+    text-align: center;
+}
+
+
+.trd-container{
+    height: 80vh;
+}
+
+.trd-con1{
+    text-align: center;
+    padding-top: 2rem;
+    border-bottom: 1px solid #1f2938;
+}
+
+.trd-con1 h4{
+    padding-bottom: 1rem;
+}
+
+
+.trd-con2 .trd-items img{
+    width: 25rem;
+}
+
+
+.trd-items-txt h4 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.trd-items-txt p{
+    font-size: 13px;
+}
+
+.box-button-txt{
+    display: flex;
+    padding-top: 2rem;
+}
+
+.box-button-txt .bbt-1{
+    margin-right: 5px;
+    background-color: rgba(159,239,0,.18);
+    color: #9fef00;
+    font-size: 12px;
+}
+
+.box-button-txt .bbt-2{
+    margin-right: 5px;
+    background-color: rgba(255,62,62,.18);
+    color: #ff3e3e;
+    font-size: 12px;
+}
+
+
+.trd-con2{
+    padding-top: 4rem;
+}
+
+.trd-con2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.trd-items{
+    padding-bottom: 3rem;
+}
+.trd-items-txt h4 a:hover{
+    color: #a4b1cd;
+}
+
+#f-exlore{
+    text-align: center;
+}
+
+#explore{
+    color: #9fef00;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#explore:hover{
+    color: #95d11c;
+}
+
+
+
+/* footer */
+
+.footer{
+    background-color: #273344;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-footer p{
+    font-size: 14px;
+}
+
+
+.left-footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.left-footer a:hover{
+    color: #a4b1cd;
+}
+
+
+.right-footer span{
+    color: #fff;
+}

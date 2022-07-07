@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FOR RESPONSIVE PERPUS USE THIS CODE */
+html{
+    font-size: 62.5%;
+}
+
+.main_div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #16a085;
+}
+
+.center_div{
+    width: 50vw;
+    height: calc(100vh - 50vh);
+    background-color: #34495e;
+    display: grid;
+    place-content: center;
+}
+
+
+.loader{
+    width: 15rem;
+    height: 15rem;
+    background: transparent;
+    border: 1.5rem solid #fff;
+    border-top: 1.5rem solid #f1c40f;
+    border-radius: 50%;
+    animation:  loaders 2s linear infinite;
+}
+
+@keyframes loaders{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1rem = 16px */
+/* 1rem = 10px */
+/* 60 * 10 = 960px */
+/* 1rem = 10px */
+/* 60px = 6rem */
+
+
+/* USE ALWAYS REM UNITES IN OUR PROJECTS */
+/* SEARCH ON GOOGLE [ css unites ] */
+
+.container h1{
+    font-size: 48px;
+}
+
+.cont h1{
+    font-size: 3rem;
+}

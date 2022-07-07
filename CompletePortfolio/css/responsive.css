@@ -1,0 +1,59 @@
+@media(max-width:940px){
+    nav{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-bottom: 2rem;
+    }
+
+    .btn{
+        margin-top: 2rem;
+    }
+
+    .content{
+        margin-top: 2rem;
+    }
+
+    h1, h2, h3{
+        font-size: 20px;
+    }
+
+    .newslatter form{
+        width: 280px;
+        max-width: 100%;
+    }
+
+    .about .main{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .about-text{
+        margin-top: 3rem;
+        padding: 20px;
+        font-weight: 20px;
+        text-align: center;
+    }
+
+    .main img{
+        width: 350px;
+    }
+
+    .about-text h2{
+        font-size: 50px;
+    }
+
+    .box{
+        flex-wrap: wrap;
+    }
+    .box .card{
+        flex-direction: column;
+    }
+
+    .card{
+        align-items: center;
+    }
+}
+
+

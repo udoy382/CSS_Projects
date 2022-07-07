@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #141d2b;
+    color: #a4b1cd;
+    font-family: 'Poppins', sans-serif;
+}
+
+.signup-box .box-img{
+    background-color: #1a2332;
+    height: 38rem;
+    width: 33.2rem;
+    margin-left: 33%;
+    margin-top: 5rem;
+}
+
+
+.signup-box .box-img img{
+    height: 25vh;
+    width: 35vw;
+    padding-bottom: 5rem;
+}
+
+.box-img .signup-forms .input-forms{
+    padding-left: 2.5rem;
+}
+
+.input-forms input{
+    padding: 15px 17.5rem 15px 0;
+    margin-top: .5rem;
+    margin-bottom: .7rem;
+    background-color: #111927!important;
+    border: none;
+    color: #a4b1cd;
+}
+
+
+.input-forms button{
+    background-color: #0086ff;
+    border-color: #0086ff;
+    color: #fff;
+    padding: 15px 12.3rem;
+    margin: 1rem 0 1rem 0;
+}
+
+
+.input-forms button:hover{
+    background-color: #187bd1;
+}
+
+
+
+span{
+   color: #9fef00;;
+}
+
+
+.bottom-text{
+    text-align: center;
+    padding: 3rem 0;
+    line-height: 2rem;
+    font-size: 13px;
+}
+
+
+.input-forms #forgot-pass{
+    text-align: center;
+}
+
+.input-forms #forgot-pass-a{
+    text-decoration: none;
+    color: #a4b1cd;
+}
+
+
+#regis{
+    text-decoration: none;
+}

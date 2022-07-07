@@ -1,0 +1,30 @@
+@media screen and (max-width: 1000px){
+    .fst-con2{
+        flex-direction: column;
+        margin: unset;
+    }
+    .con2-item1{
+        padding-bottom: 3rem;
+    }
+    .right-nav ul li{
+        font-size: 10px;
+        padding: unset;
+        padding-bottom: 4px;
+    }
+    .right-nav ul{
+        flex-direction: column;
+    }
+    .snd-con2{
+        flex-direction: column;
+    }
+    .snd-con1{
+        margin-top: 25rem;
+    }
+    .fst-con3{
+        display: none;
+    }
+    .fst-con1 h1{
+        font-size: 1rem;
+        padding-top: 3rem;
+    }
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.parent_div{
+    width: 100vw;
+    height: 100vh;
+    background: #2980b9;
+
+    /* ---------method-1------------ */
+    /* position: relative; */
+
+    /* ---------method-2------------ */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    /* ---------method-3------------ */
+
+    display: grid;
+    place-items: center;
+}
+
+
+.child_div{
+    width: 60vw;
+    height: 60vh;
+    background: #1abc9c;
+
+    /* ---------method-1------------ */
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+}

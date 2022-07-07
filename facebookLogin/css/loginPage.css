@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: inline-block;
+    background-color: rgb(238, 234, 234);
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.container .left-items{
+    margin-left: 15rem;
+    margin-top: 10rem;
+    flex-basis: 50%;
+}
+
+.container .right-items{
+    background-color: white;
+    margin-right: 18rem;
+    margin-top: 12rem;
+    height: 25rem;
+    width: 23em;
+}
+
+.container .left-items h1{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: #3b5998;
+}
+
+.container .left-items p{
+    font-size: 28px;
+}
+
+/* .container .right-items{
+    background-color: white;
+    height: 25rem;
+    width: 23em;
+    margin-top: 50px;
+} */
+
+.right-items{
+    margin: 30px;
+}
+
+.right-items .login-form .email-or-phone input{
+    margin: 20px;
+    padding: 10px 10rem 10px 5px;
+    border: 1px solid rgb(189, 185, 185);
+    border-radius: 3px;
+}
+
+.right-items .login-form .password input{
+    margin: 0px 20px 0px 20px;
+    padding: 10px 10rem 10px 5px;
+    border: 1px solid rgb(189, 185, 185);
+    border-radius: 3px;
+}
+
+.right-items .login-form .button button{
+    margin: 20px;
+    padding: 10px 9rem 10px 9rem;
+    background-color: #3b5998 ;
+    color: white;
+    border: 1px solid rgb(189, 185, 185);
+    border-radius: 3px;
+}
+
+.right-items .login-form .forgot-password p{
+    text-align: center;
+}
+
+
+.right-items .login-form .forgot-password p, a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.right-items .login-form .creat-new-accoutn p{
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgb(72, 202, 67);
+    padding: 13px 2rem 13px 2rem;
+    margin-left: 80px;
+    border-radius: 3px;
+}
+
+.right-items .login-form .creat-new-accoutn p:hover{
+    background-color: rgb(61, 192, 57);
+}
+
+
+.bottom-link{
+    display: inline-block;
+    margin-left: 58rem;
+}
+
+.bottom-link a{
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 13px;
+}

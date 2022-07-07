@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #192a56;
+    display: grid;
+    place-items: center;
+}
+
+
+.container a{
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+
+.container a:link{
+    color: #fff;
+}
+
+.container a:hover{
+    color: #192a56;
+    background: #fff;
+}
+
+.container a:active{
+    color: yellow;
+    background: #000;
+}
+
+
+/* Not Recomended */
+
+.container a:visited{
+    color: red;
+    background: yellowgreen;
+}

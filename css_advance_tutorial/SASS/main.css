@@ -1,0 +1,58 @@
+@import "_mixin.scss" ;
+@import "_var.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main_header {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  letter-spacing: 2rem;
+  text-transform: capitalize;
+  background: #854b4b;
+}
+
+.main_header h1 {
+  color: #fff;
+  font-size: 10rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  letter-spacing: 0.3rem;
+}
+
+.main_header h1:hover {
+  color: brown;
+}
+
+.main_header h1::after {
+  content: ' hey';
+}
+
+.main_header p {
+  color: #fff;
+  letter-spacing: 0.3rem;
+}
+/*# sourceMappingURL=main.css.map */

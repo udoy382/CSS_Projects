@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    animation: changebg 10s linear infinite;
+    display: grid;
+    place-items: center;
+}
+
+@keyframes changebg {
+    0%{
+        background-color: lightblue;
+    }
+    20%{
+        background-color: lightcoral;
+    }
+    40%{
+        background-color: lightgray;
+    }
+    60%{
+        background-color: lightseagreen;
+    }
+   80%{
+        background-color: lightpink;
+    }
+    100%{
+        background-color: lightblue;
+    }
+}

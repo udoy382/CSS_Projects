@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading::selection{
+    background: hotpink;
+    color: ivory;
+}
+
+::selection{
+    background: rgb(88, 187, 118);
+    color: rgb(212, 204, 204);
+}
+
+
+
+.container{
+    text-align: center;
+    padding: 2rem;
+}
+
+

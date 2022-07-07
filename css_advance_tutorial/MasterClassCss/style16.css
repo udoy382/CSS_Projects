@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* import of element  */
+/* * => inlinecss => id => class => element => importent */
+/* 0 1 0 1 */
+
+/* SEARCH IN GOOGLE FOR BETTER KNOW */
+
+/* [ How is specificity calculated? ] */
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: #242424;
+    display: grid;
+    place-items: center;
+}
+
+.link_box{
+    background: brown;
+    padding: 5rem;
+}
+
+.link_box a{
+    text-decoration: none;
+    color: red;
+}
+
+
+a{
+    color: saddlebrown;
+}
+
+
+#alink{
+    color: seagreen;
+}
+
+.link_a{
+    color: tomato;
+}
+
+
+.container .link_box a{
+    color: yellowgreen;
+}

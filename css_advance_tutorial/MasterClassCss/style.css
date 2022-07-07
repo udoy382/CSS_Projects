@@ -1,0 +1,26 @@
+:root{
+    --clr:rgb(148, 153, 155);
+    --bg-color:rgb(49, 145, 89);
+}
+
+
+
+div{
+    background: #42a5f5;
+}
+
+
+h1{
+    color: var(--clr);
+}
+
+
+h2{
+    color: var(--clr);
+}
+
+
+h3{
+    background: var(--bg-color);
+    color: var(--clr);
+}

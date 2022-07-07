@@ -1,0 +1,15 @@
+// scss Mixin
+@mixin flexprob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+@mixin commoncode($par1){
+    // letter-spacing: 1.5rem;
+    letter-spacing: $par1;
+    text-transform: capitalize;
+}

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.main_div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main_div .center_div{
+    width: calc(100vw - 40vw);
+    height: calc(100vh - 30vh);
+    position: relative;
+    border:  1px solid #000;
+    box-shadow: 5px 5px 2px 2px rgba(14, 13, 13, 0.1);
+}
+
+.center_div h2{
+    padding: 20px 0 20px 20px;
+}
+
+.center_div p{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 1.1rem;
+    text-align: right;
+}
+
+.center_div span::after{
+    content: '';
+    display: inline-block;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    font-weight: 700;
+    background: currentColor;
+    margin: 0 0.5rem;
+}
+
+.center_div h3{
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+    color: grey;
+    font-style: italic;
+}
+
+.pie_chart{
+    background: radial-gradient(circle closest-side, transparent 100%, #fff 0), conic-gradient(red, yellow, lime, aqua, blue, magenta);
+
+
+    /* -------------Not Working For Some Issue------------- */
+
+    /* background: radial-gradient(circle closest-side, transparent 100%, #fff 0), conic-gradient(
+        from 180deg,
+
+        #242424 0,
+        red 35%,
+        blue 0,
+        yellow 60%,
+        grey 0,
+        aqua 75%,
+        darkblue 0,
+        brown 89%,
+        coral 0
+        darkcyan 100% ); */
+
+    min-width: 300px;
+    min-height: 300px;
+
+}

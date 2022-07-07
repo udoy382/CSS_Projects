@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+::selection{
+    background-color: rgb(61, 188, 84);
+    color: #fff;
+}
+
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: rgb(251, 246, 246);
+}
+
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/nav-img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.navbar{
+    background-color: transparent;
+    height: 5rem;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* Lest Navbar */
+
+.navbar .left-navbar h1{
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar .left-navbar small{
+    font-size: 8px;
+    margin-left: 3.2rem;
+    color: #fff;
+}
+
+.navbar .left-navbar h1 span{
+    font-size: 35px;
+}
+
+
+
+/* Right Navbar */
+
+.navbar .right-navbar ul{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.navbar .right-navbar ul li a{
+    padding: 14px 18px;
+}
+
+.navbar .right-navbar ul li a:hover{
+    text-decoration: underline;
+}
+
+
+/* header content */
+
+.header .header-content{
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: 14% auto 0 0;
+    color: #fff;
+}
+
+
+.header .header-content h1{
+    font-size: 3rem;
+}
+
+.header, .header-content p{
+    font-size: 1rem;
+    padding: .5rem 0;
+}
+
+
+/* first section */
+
+.first-section{
+    height: 90vh;
+    width: 100%;
+    /* background-color: rgb(251, 246, 246); */
+}
+
+.first-section .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-section .container .left-section{
+    width: 100vw;
+    height: 100vh;
+    padding: 5rem;
+}
+
+.first-section .container .left-section h1{
+    font-size: 30px;
+    padding: 2rem;
+    color: rgba(3, 110, 164,1.0)!important;
+}
+
+.first-section .container .left-section p{
+    font-size: 1rem;
+    padding: .8rem;
+}
+
+.first-section .right-section img{
+    width: 25rem;
+    padding-top: 2rem;
+}
+
+
+/* Second Section */
+
+.second-section{
+    height: 100vh;
+    width: 100%;
+}
+
+.second-section .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second-section .container .left-section img{
+    width: 25rem;
+    padding-top: 2rem;
+}
+
+.second-section .container .right-section{
+    width: 100vw;
+    height: 100vh;
+    padding: 5rem;
+}
+
+.second-section .container .right-section h1{
+    font-size: 30px;
+    padding: 2rem;
+    color: rgba(3, 110, 164,1.0)!important;
+}
+
+.second-section .container .right-section p{
+    font-size: 1rem;
+    padding: .8rem;
+}
+
+
+
+/* Footer */
+
+.footer{
+    background-color: rgba(3, 110, 164,1.0);
+    color: #fff;
+    height: 40vh;
+    width: 100%;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footer .footer-container .left-footer-site h2{
+    text-transform: uppercase;
+    padding: 2rem 0;
+}
+
+.footer .footer-container .left-footer-site a{
+    line-height: 2rem;
+}
+
+.footer .footer-container .left-footer-site a:hover{
+    text-decoration: underline;
+}
+
+.footer .footer-container .middle-footer-site h2{
+    text-transform: uppercase;
+    padding: 2rem 0;
+}
+
+.footer .footer-container .middle-footer-site p{
+    line-height: 20px;
+}
+
+.footer .footer-container .middle-footer-site span{
+    color: rgb(41, 204, 71);
+}
+
+
+.footer .footer-container .right-footer-site h2{
+    text-transform: uppercase;
+    padding: 2rem 0;
+}
+
+.footer .footer-container .right-footer-site p{
+    line-height: 20px;
+}
+
+.footer .footer-container .right-footer-site span{
+    color: rgb(41, 204, 71);
+}
+
+
+.footer .footer-container .footer-search-bar input{
+    padding: 5px 35px;
+    border: none;
+    border-radius: 3px;
+}
+
+.footer .footer-container .footer-search-bar button{
+    padding: 5px 15px;
+    background-color: rgb(41, 204, 71);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.footer .footer-container .footer-search-bar button:hover{
+    background-color: rgb(38, 186, 65);
+}
+
+.footer .footer-container .footer-search-bar p{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.link{
+    text-decoration: underline;
+    color: rgb(38, 186, 65);
+}

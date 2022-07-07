@@ -1,0 +1,266 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+/* Navigation Bar : Logo adn Image */
+#logo{
+    margin: 10px 10px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 10px 10px;
+    border-radius: 50%;
+}
+
+/* Navigation Bar : List Styling */
+
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar::before{
+    content: '';
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#navbar ul li{
+    /* color: #fff; */
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+#navbar ul li a{
+    color: #fff;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: #fff;
+    background-color: gray;
+}
+
+/* Home Section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    /* height: 99vh; */
+    height: 610px;
+    justify-content: center;
+    align-items: center;
+    /* color: #fff; */
+}
+
+#home::before{
+    content: '';
+    background: url(../img/bg1.png) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1{
+    color: #fff;
+    text-align: center;
+}
+
+#home p{
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/* Services Section */
+
+#services{
+    margin: 34px;
+    display: flex;
+}
+
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background: #f2f2f2;
+}
+
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+
+/* Client Section */
+
+#client-section{
+    height: 344px;
+}
+
+#client-section::before{
+    content: '';
+    position: absolute;
+    background-color: gray;
+    width: 100%;
+    height: 45%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients img{
+    height: 124px;
+}
+
+.client-item{
+    padding: 50px;
+}
+
+/* Contact Section */
+
+#contact{
+    position: relative;
+    color: whitesmoke;
+}
+
+#contact h1{
+    color: black;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url(../img/contact-bg.png) no-repeat center center/cover;
+}
+
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+.contact-box form{
+    width: 40%;
+}
+
+.contact-box label{
+    font-size: 1.3rem;
+}
+
+.contact-box input{
+    width: 100%;
+    padding: 7px 30px;
+    background: #fff;
+    border-radius: 9px;
+    /* background:darkgrey; */
+}
+
+.contact-box textarea{
+    width: 100%;
+    padding: 0.5rem 1.9rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    /* background:darkgrey; */
+}
+
+/* Footer */
+
+footer{
+    background: black;
+    color: #fff;
+    padding: 9px 20px;
+}
+
+/* Utility Classes */
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+
+.btn{
+    padding: 10px 90px;
+    border: 2px solid white;
+    background: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    background: rgb(224, 220, 220);
+    color: black;
+    border: 2px solid brown;
+}
+
+.center{
+    text-align: center;
+}
+
+.c-btn{
+    padding: 10px 90px;
+    background: brown;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid white;
+    margin-left: 13.2rem;
+    cursor: pointer;
+}

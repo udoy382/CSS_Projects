@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --b-a-width:10vw;
+    --b-a-md-width:15vw;
+    --b-a-sm-width:20vw;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #3498db;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container h1{
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.container h1::before{
+    /* content: 'full stack developer'; */
+    /* display: block; */
+
+    content: '';
+    position: absolute;
+    width: var(--b-a-width);
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 5px solid #2c3e50;
+}
+
+
+.container h1::after{
+    /* content: 'Ethical Hacker'; */
+    /* display: block; */
+
+    content: '';
+    position: absolute;
+    width: var(--b-a-width);
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 5px solid #2c3e50;
+}
+
+
+@media(max-width: 760px){
+    .container h1::before{
+        width: var(--b-a-sm-width);
+    }
+    
+    .container h1::after{
+        width: var(--b-a-sm-width);
+    }
+}

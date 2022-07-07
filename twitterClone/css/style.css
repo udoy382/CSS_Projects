@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side-items{
+    flex-basis: 55%;
+    height: 90vh;
+    width: 55vw;
+}
+
+.left-side-items img{
+    height: 90vh;
+    width: 55vw;
+}
+
+.right-side-items{
+    flex-basis: 45%;
+    background-color: #000;
+    height: 90vh;
+    width: 45vw;
+}
+
+.twitter-right-logo img{
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.right-heading{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.right-heading h1{
+    color: rgb(226, 222, 222);
+}
+
+.right-heading-and-links h2{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 45px;
+    color: rgb(226, 222, 222);
+
+}
+
+.right-heading-and-links .account-links{
+    display: inline-block;
+    background-color: #fff;
+    height: 6vh;
+    width: 20vw;
+    margin-left: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.right-heading-and-links .account-links a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #000;
+    margin-left: 68px;
+    margin-top: 10px;
+}
+
+.right-heading-and-links .account-links a img{
+    height: 21px;
+    margin-right: 10px;
+}
+
+.right-bottom-text{
+    margin-left: 50px;
+}
+
+.right-bottom-text p{
+    color: gray;
+}
+
+.right-bottom-text a{
+    text-decoration: none;
+    color: rgb(42, 87, 158);
+}
+
+.right-bottom-text{
+    margin-top: 10px;
+}
+
+.footer{
+    background-color: #000;
+    display: inline-block;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all-footer-items{
+    display: f;
+}
